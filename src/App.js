@@ -9,6 +9,8 @@ import SplashScreen from './Componenets/SplashScreen';
 import TopPlayer from './Componenets/TopPlayer/TopPlayer';
 import GameOnelvl2 from './Componenets/Game/GameOnelvl2';
 import ResultGameOne from './Componenets/Game/ResultGameOne';
+import Chat from './Componenets/Game/Chat/Chat';
+import Guess from './Componenets/Game/Guess/Guess';
 
 function App() {
   const router=createBrowserRouter(
@@ -37,6 +39,14 @@ function App() {
       {
         path: '/resultgameone',
         element: <ResultGameOne></ResultGameOne>
+      },
+      {
+        path: '/chat',
+        element: <Chat></Chat>
+      },
+      {
+        path: '/guess',
+        element: <Guess></Guess>
       },
 
     

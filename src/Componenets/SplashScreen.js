@@ -41,17 +41,17 @@ const handleClick = () => {
   <div class="menu">
     <p class="text-lg font-semibold mb-3">Choose a game:</p>
     <div class="games">
+    <a  class="game">
+        <i class="fas fa-chess-pawn mr-3"></i>
+       <Link to={'/gameone'}>  Runner</Link>
+      </a>
       <a  class="game">
         <i class="fas fa-chess-pawn mr-3"></i>
-       <Link to={'/gameone'}>  Journey Quest</Link>
+       <Link to={'/chat'}>  Chat</Link>
       </a>
       <a  class="game">
-        <i class=" mr-3"></i>
-        Path finder
-      </a>
-      <a  class="game">
-        <i class="fas fa-puzzle-piece mr-3"></i>
-        Runner
+        <i class="fas fa-chess-pawn mr-3"></i>
+       <Link to={'/guess'}> Do Guess</Link>
       </a>
       <a  class="game">
         <i class="fas fa-chess-pawn mr-3"></i>
